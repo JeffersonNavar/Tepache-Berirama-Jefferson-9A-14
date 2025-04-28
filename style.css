@@ -1,0 +1,153 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    top: 0;
+    background-color: chocolate;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    font-size: large;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 20px;
+}
+nav a:hover {
+    background-color: rgb(0, 88, 4);
+    transition: 0.5s;
+}
+section.home{
+    background: url("gbr1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 100px;
+}
+section.home div{
+    text-align: center;
+    color: red;
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+}
+section.home .welcome{
+    font-size: 30px;
+}
+section.home a{
+    color: red;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.home a:hover{
+    transition: 0.3s;
+    background-color: chartreuse;
+}
+section.about{
+height: 600px;
+background-color: rgb(235, 192, 0);
+padding-top: 100px;
+}
+section.about div{
+    color: black;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+section.about img{
+    height: 200px;
+}
+
+section.products{
+    background: url("gbr2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1200px;
+}
+section.products .container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+section.products .container .card{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    height: 400px;
+    margin: 15px;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.products .container .card .img{
+    width: 100%;
+}
+section.products .container .card a{
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.contact{
+    background-color: orange;
+    height: 600px;
+}
+section.contact .card{
+    margin: auto;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 100px;
+    width: 400px;
+}
+section.contact .card img{
+    width: 200px;
+}
+footer{
+    background-color: rgb(56, 56, 56);
+    height: 50px;
+}
+footer .medsos{
+    text-align: center;
+    padding-top: 10px;
+}
+footer .medsos a{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+footer .medsos a:hover{
+    background-color: cornflowerblue;
+    transition: 0.5s;
+}
+@keyframes getar{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(3deg);
+    }
+    50%{
+        transform: rotate(-3deg);
+    }
+    75%{
+        transform: rotate(1deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.card:hover{
+    animation: getar 0.5s;
+}
