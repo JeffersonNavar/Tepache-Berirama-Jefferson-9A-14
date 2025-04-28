@@ -1,0 +1,196 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    top: 0;
+    background-color: chocolate;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    font-size: large;
+}
+nav a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+nav a:hover {
+    background-color: rgb(0, 88, 4);
+    transition: 0.5s;
+}
+section.home{
+    background: url("https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-5de8-61f7-8082-b03283f3f5e2/raw?se=2025-04-28T11%3A24%3A25Z&sp=r&sv=2024-08-04&sr=b&scid=3fcb7f0b-543d-5934-9561-121452114f94&skoid=0abefe37-d2bd-4fcb-bc88-32bccbef6f7d&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-04-28T03%3A32%3A09Z&ske=2025-04-29T03%3A32%3A09Z&sks=b&skv=2024-08-04&sig=Q9yhnzMy3BjFO9lkjT3h9J3/ACuKOKsp4CuJqtl8R4E%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    padding-top: 100px;
+}
+section.home div{
+    text-align: center;
+    color: white;
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    font-size: larger
+}
+section.home .welcome{
+    font-size: 30px;
+}
+section.home a{
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.home a:hover{
+    transition: 0.3s;
+    background-color: navy;
+}
+section.about{
+height: 600px;
+background-color: rgb(0, 0, 0);
+padding-top: 100px;
+}
+section.about div{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    width: 70%;
+}
+section.about img{
+    height: 400px;
+    width: auto;
+}
+section.products{
+    background: url("https://imgs.search.brave.com/b2GwghHJkuKNDe7HqnGYHCQQOxSPYf0OiXw7QsrpNlM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/MmNhNTk2ZTY1YzUy/OWVhMjFkNWViNzIv/NjQ1YzgyZjgyYWYz/ZTU0MjYzMjY5ZmVi/X19kc2M5ODkwLmpw/ZWc");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1200px;
+}
+section.products .container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+section.products .container .card{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    height: 490px;
+    margin: 15px;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.products .container .card1{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    height: 490px;
+    margin: 15px;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.products .container .card2{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    height: 490px;
+    margin: 15px;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.products .container .card img{
+    width: 200px;
+    height: 100%;
+}
+.card1 img{
+    height: 170px;
+}
+.card2 img{
+    height: 170px;
+}
+section.products .container .card a{
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.products .container .card1 a{
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.products .container .card2 a{
+    color: black;
+    padding: 5px 20px;
+    text-decoration: none;
+    box-shadow: 0px 0px 3px;
+    border-radius: 20px;
+}
+section.contact{
+    background-color: orange;
+    height: 600px;
+}
+section.contact .card{
+    margin: auto;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 100px;
+    width: 400px;
+    font-size: larger;
+}
+section.contact .card img{
+    width: 400px;
+}
+footer{
+    background-color: rgb(56, 56, 56);
+    height: 50px;
+}
+footer .medsos{
+    text-align: center;
+    padding-top: 10px;
+}
+footer .medsos a{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+footer .medsos a:hover{
+    background-color: cornflowerblue;
+    transition: 0.5s;
+}
+@keyframes getar{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(3deg);
+    }
+    50%{
+        transform: rotate(-3deg);
+    }
+    75%{
+        transform: rotate(1deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+.card:hover{
+    animation: getar 0.5s;
+}
